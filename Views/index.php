@@ -6,11 +6,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
-  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+  <link rel="apple-touch-icon" href="<?php echo BASE_URL .'assets/img/apple-icon.png'; ?>">
+  <link rel="shortcut icon" type="image/x-icon" href="<?php echo BASE_URL .'assets/img/favicon.ico'; ?>">
 
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/templatemo.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL .'assets/css/bootstrap.min.css'; ?>">
+  <link rel="stylesheet" href="<?php echo BASE_URL .'assets/css/templatemo.css'; ?>">
 
   <!-- Load fonts style after rendering the layout styles -->
   <link rel="stylesheet"
@@ -134,7 +134,7 @@
         <div class="container">
           <div class="row p-5">
             <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-              <img class="img-fluid" src="assets/img/carrusel/1.jpg" alt="">
+              <img class="img-fluid" src="<?php echo BASE_URL .'assets/img/carrusel/1.jpg'; ?>" alt="">
             </div>
             <div class="col-lg-6 mb-0 d-flex align-items-center">
               <div class="text-align-left align-self-center">
@@ -151,7 +151,7 @@
         <div class="container">
           <div class="row p-5">
             <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-              <img class="img-fluid" src="assets/img/carrusel/2.jpg" alt="">
+              <img class="img-fluid" src="<?php echo BASE_URL .'assets/img/carrusel/2.jpg'; ?>" alt="">
             </div>
             <div class="col-lg-6 mb-0 d-flex align-items-center">
               <div class="text-align-left">
@@ -171,7 +171,7 @@
         <div class="container">
           <div class="row p-5">
             <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-              <img class="img-fluid" src="assets/img/carrusel/3.png" alt="">
+              <img class="img-fluid" src="<?php echo BASE_URL .'assets/img/carrusel/3.png'; ?>" alt="">
             </div>
             <div class="col-lg-6 mb-0 d-flex align-items-center">
               <div class="text-align-left">
@@ -212,15 +212,15 @@
     </div>
     <div class="row">
       <div class="col-12 col-md-3 p-5 mt-3">
-        <a href="#"><img src="assets/img/categoria1.jpg" class="rounded-circle img-fluid border"></a>
+        <a href="#"><img src="<?php echo BASE_URL .'assets/img/categoria1.jpg'; ?>" class="rounded-circle img-fluid border"></a>
         <h5 class="text-center mt-3 mb-3">Watches</h5>
       </div>
       <div class="col-12 col-md-3 p-5 mt-3">
-        <a href="#"><img src="assets/img/categoria2.jpg" class="rounded-circle img-fluid border"></a>
+        <a href="#"><img src="<?php echo BASE_URL .'assets/img/categoria2.jpg'; ?>" class="rounded-circle img-fluid border"></a>
         <h2 class="h5 text-center mt-3 mb-3">Shoes</h2>
       </div>
       <div class="col-12 col-md-3 p-5 mt-3">
-        <a href="#"><img src="assets/img/categoria3.jpg" class="rounded-circle img-fluid border"></a>
+        <a href="#"><img src="<?php echo BASE_URL .'assets/img/categoria3.jpg'; ?>" class="rounded-circle img-fluid border"></a>
         <h2 class="h5 text-center mt-3 mb-3">Accessories</h2>
       </div>
     </div>
@@ -243,7 +243,7 @@
         <div class="col-12 col-md-4 mb-4">
           <div class="card h-100">
             <a href="shop-single.html">
-              <img src="assets/img/product1.jpg" class="card-img-top" alt="...">
+              <img src="<?php echo BASE_URL .'assets/img/product1.jpg'; ?>" class="card-img-top" alt="...">
             </a>
             <div class="card-body">
               <ul class="list-unstyled d-flex justify-content-between">
@@ -266,7 +266,7 @@
         <div class="col-12 col-md-4 mb-4">
           <div class="card h-100">
             <a href="shop-single.html">
-              <img src="assets/img/product2.jpg" class="card-img-top" alt="...">
+              <img src="<?php echo BASE_URL .'assets/img/product2.jpg'; ?>" class="card-img-top" alt="...">
             </a>
             <div class="card-body">
               <ul class="list-unstyled d-flex justify-content-between">
@@ -289,7 +289,7 @@
         <div class="col-12 col-md-4 mb-4">
           <div class="card h-100">
             <a href="shop-single.html">
-              <img src="assets/img/product3.jpg" class="card-img-top" alt="...">
+              <img src="<?php echo BASE_URL .'assets/img/product3.jpg'; ?>" class="card-img-top" alt="...">
             </a>
             <div class="card-body">
               <ul class="list-unstyled d-flex justify-content-between">
@@ -413,11 +413,11 @@
   <!-- End Footer -->
 
   <!-- Start Script -->
-  <script src="assets/js/jquery-3.6.0.min.js"></script>
-  <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/templatemo.js"></script>
-  <script src="assets/js/all.min.js"></script>
+  <script src="<?php echo BASE_URL .'assets/js/jquery-3.6.0.min.js'; ?>"></script>
+  <script src="<?php echo BASE_URL .'assets/js/jquery-migrate-1.2.1.min.js'; ?>"></script>
+  <script src="<?php echo BASE_URL .'assets/js/bootstrap.bundle.min.js'; ?>"></script>
+  <script src="<?php echo BASE_URL .'assets/js/templatemo.js'; ?>"></script>
+  <script src="<?php echo BASE_URL .'assets/js/all.min.js'; ?>"></script>
   <!-- End Script -->
 </body>
 
