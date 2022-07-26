@@ -6,8 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="apple-touch-icon" href="<?php echo BASE_URL.'assets/img/apple-icon.png';?>">
-  <link rel="shortcut icon" type="image/x-icon" href="<?php echo BASE_URL .'assets/img/favicon.ico';?>">
+  <link rel="apple-touch-icon" href="<?php echo BASE_URL.'<?php echo BASE_URL; ?>assets/img/apple-icon.png';?>">
+  <link rel="shortcut icon" type="image/x-icon" href="<?php echo BASE_URL .'<?php echo BASE_URL; ?>assets/img/favicon.ico';?>">
 
   <link rel="stylesheet" href="<?php echo BASE_URL .'assets/css/bootstrap.min.css';?>">
   <link rel="stylesheet" href="<?php echo BASE_URL .'assets/css/templatemo.css';?>">
@@ -54,8 +54,8 @@
   <nav class="navbar navbar-expand-lg navbar-light shadow">
     <div class="container d-flex justify-content-between align-items-center">
 
-      <a class="navbar-brand text-util logo h3 align-self-center" href="index.html">
-        Tienda Virtual
+      <a class="navbar-brand text-util logo h3 align-self-center" href="<?php echo BASE_URL; ?>">
+      <?php echo TITLE; ?>
       </a>
 
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
@@ -69,13 +69,13 @@
         <div class="flex-fill">
           <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="<?php echo BASE_URL . 'principal/about' ?>">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="shop.html">Shop</a>
+              <a class="nav-link" href="<?php echo BASE_URL . 'principal/shop' ?>">Tienda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="<?php echo BASE_URL . 'principal/contactos' ?>">Contacto</a>
             </li>
           </ul>
         </div>
