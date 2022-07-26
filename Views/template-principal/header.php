@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Ecommerce - Free</title>
+  <title><?php echo TITLE . ' - ' . $data['title']; ?></title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,6 +15,12 @@
   <!-- Load fonts style after rendering the layout styles -->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+
+  
+  <!-- Slick -->
+  <link rel="stylesheet" type="text/css" href="assets/css/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/slick/slick-theme.css">
+
 </head>
 
 <body>
