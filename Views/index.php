@@ -130,7 +130,7 @@
                 </li>
                 <li class="text-muted text-right"><?php echo MONEDA .' '. $producto['precio'];?></li>
               </ul>
-              <a href="shop-single.html" class="h2 text-decoration-none text-dark"><?php echo $producto['nombre'];?></a>
+              <a href="<?php echo BASE_URL . 'principal/detail/' . $producto['id']; ?>" class="h2 text-decoration-none text-dark"><?php echo $producto['nombre'];?></a>
               <p class="card-text">
                 <?php echo  $producto['descripcion'];?>
               </p>
