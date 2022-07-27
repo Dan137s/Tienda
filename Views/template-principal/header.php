@@ -19,14 +19,14 @@
   <link rel="icon" type="image/png" sizes="16x16" href="<?php echo BASE_URL; ?>assets/favicon/favicon-16x16.png">
   <link rel="manifest" href="<?php echo BASE_URL; ?>assets/favicon/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="<?php echo BASE_URL; ?>assets/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="apple-touch-icon" href="<?php echo BASE_URL . '<?php echo BASE_URL; ?>assets/img/apple-icon.png'; ?>">
-  <link rel="shortcut icon" type="image/x-icon" href="<?php echo BASE_URL . '<?php echo BASE_URL; ?>assets/img/favicon.ico'; ?>">
+  <link rel="apple-touch-icon" href="<?php echo BASE_URL . 'assets/img/apple-icon.png'; ?>">
+  <link rel="shortcut icon" type="image/x-icon" href="<?php echo BASE_URL . 'assets/img/favicon.ico'; ?>">
 
   <link rel="stylesheet" href="<?php echo BASE_URL . 'assets/css/bootstrap.min.css'; ?>">
   <link rel="stylesheet" href="<?php echo BASE_URL . 'assets/css/templatemo.css'; ?>">
@@ -36,8 +36,9 @@
 
 
   <!-- Slick -->
-  <link rel="stylesheet" type="text/css" href="assets/css/slick/slick.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/slick/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL. 'assets/css/slick/slick.css'; ?>">
+  <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL. 'assets/css/slick/slick-theme.css'; ?>">
+ 
 
 </head>
 
